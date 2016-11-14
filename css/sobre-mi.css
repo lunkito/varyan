@@ -1,0 +1,27 @@
+.back-sobre-mi {
+  background: url('../img/sobre-mi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*height: calc(100vh - 68px);*/
+  /*min-height: 100%;*/
+  padding: 60px 100px;
+}
+
+.texto-sobre-mi {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px 60px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+@media (max-width:1020px) {
+  .texto-sobre-mi{
+    width: auto;
+    margin: auto;
+  }
+}

@@ -1,0 +1,43 @@
+body {
+  background-image: url('../img/redhair-camera-sky(1920-1280).jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+.btn-index {
+  padding: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: white;
+  border-right-color: white;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transition: all .6s ease;
+}
+
+.btn-index:hover {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: white;
+  border-bottom-color: white;
+  background: rgba(255, 255, 255, .15);
+  cursor: pointer;
+}
+
+.btn-big {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.btn-small {
+  font-size: 0.6em;
+  margin-top: 20px;
+}
