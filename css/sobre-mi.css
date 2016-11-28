@@ -2,7 +2,7 @@
   background: url('../img/sobre-mi.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  /*height: calc(100vh - 68px);*/
+  height: calc(100vh - 68px);
   /*min-height: 100%;*/
   padding: 60px 100px;
 }
