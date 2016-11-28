@@ -25,3 +25,7 @@ h2 {
     margin: auto;
   }
 }
+
+html, body {
+  min-height: 100%;
+}
